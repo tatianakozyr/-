@@ -1,7 +1,7 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import { MaterialEstimate } from "../types";
 
-const apiKey = "AIzaSyC68QYEWBxkgMMCkWGMTRAyPkV5A868cGQ";
+const apiKey = 'AIzaSyC68QYEWBxkgMMCkWGMTRAyPkV5A868cGQ';
 const ai = new GoogleGenAI({ apiKey });
 
 const SYSTEM_INSTRUCTION = `
